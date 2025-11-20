@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisanat Nigérien - Boutique en ligne</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./artisanat.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./assets/NovaNiger-removebg-preview.png" alt="">
+            </div>
+
+            <div class="flex">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+
+                    <li class="dropdown">
+                        <input type="checkbox" id="drop-toggle">
+                        <label for="drop-toggle" class="drop-label">Catégories</label>
+                        <ul class="dropdown-menu">
+                            <li><a href="./artisanat.html">L'art Nigérien</a></li>
+                            <li><a href="">Produit Agro-Alimentaire</a></li>
+                            <li><a href="">Autres</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="cart-icon">
+                    <div class="panier">
+                        <img src="./assets/panier-removebg-preview.png" alt="">
+                    </div>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="arriere-plan">
+        <div class="hero-content">
+            <h1>L'Art Nigérien</h1>
+            <p>Entre Culture & Passion - Chaque produit raconte une histoire</p>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2 class="section-title">Nos Produits Authentiques</h2>
+
+        <p class="description">
+            Plongez au cœur de l’art nigérien, où chaque création reflète le savoir-faire et la passion des artisans
+            locaux.
+            Nos produits, façonnés à la main avec soin, mêlent tradition et modernité pour offrir des pièces
+            uniques, chargées d’histoire et d’émotion.
+            Que ce soit pour embellir votre style ou votre intérieur, chaque objet raconte une histoire qui mérite
+            d’être découverte.
+        </p>
+    </div>
+
+    <main class="products-section" id="produits">
+
+        <div class="products-grid">
+
+            <div class="product-card">
+                <span class="product-badge">Nouveau</span>
+                <div class="product-image">
+                    <img src="./assets/image-1.jpg" alt="Collier Traditionnel">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Bijoux</div>
+                    <h3 class="product-title">Collier Traditionnel</h3>
+                    <p class="product-description">Fabriqué à la main par des artisans locaux avec des perles
+                        authentiques.</p>
+                    <div class="product-footer">
+                        <div class="product-price">15,000 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/Dans-un-atelier-artisanal-du-musee-national.jpg" alt="Boucles d'oreilles">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Bijoux</div>
+                    <h3 class="product-title">Boucles d'Oreilles</h3>
+                    <p class="product-description">Élégance et authenticité du Niger dans chaque paire.</p>
+                    <div class="product-footer">
+                        <div class="product-price">8,500 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <span class="product-badge">Populaire</span>
+                <div class="product-image">
+                    <img src="./assets/selection-de-bijouterie-sur-le-marche-marocain-64080221.jpg"
+                        alt="Paniers Tissés">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Artisanat</div>
+                    <h3 class="product-title">Paniers Tissés</h3>
+                    <p class="product-description">Un artisanat unique pour décorer votre maison avec style.</p>
+                    <div class="product-footer">
+                        <div class="product-price">12,000 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/image-5.jpg" alt="Bracelet Ethnique">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Bijoux</div>
+                    <h3 class="product-title">Bracelet Ethnique</h3>
+                    <p class="product-description">Inspiration traditionnelle avec finitions modernes.</p>
+                    <div class="product-footer">
+                        <div class="product-price">7,500 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/chaine-image.jpeg" alt="Chaîne Artisanale">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Bijoux</div>
+                    <h3 class="product-title">Chaîne Artisanale</h3>
+                    <p class="product-description">Pièce unique façonnée par nos meilleurs artisans.</p>
+                    <div class="product-footer">
+                        <div class="product-price">18,000 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <span class="product-badge">Promo</span>
+                <div class="product-image">
+                    <img src="./assets/marche-de-Niamey-Niger-564x377-1-1.jpg" alt="Sac Tissé">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Artisanat</div>
+                    <h3 class="product-title">Sac Tissé</h3>
+                    <p class="product-description">Pratique et élégant, parfait pour vos courses quotidiennes.</p>
+                    <div class="product-footer">
+                        <div class="product-price">9,500 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/Sculptures_en_bois_faits_par_les_artisans_du_musée_national_du_Niger.jpg"
+                        alt="Sculpture">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Sculptures</div>
+                    <h3 class="product-title">Sculpture en Bois</h3>
+                    <p class="product-description">Art traditionnel nigérien sculpté dans du bois noble.</p>
+                    <div class="product-footer">
+                        <div class="product-price">25,000 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/femme-afro-fabriquant-poterie-dans-atelier-faconnant-argile-humide-roue-poterie_1358627-21068.avif"
+                        alt="Tissu Traditionnel">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Textiles</div>
+                    <h3 class="product-title">Tissu Kenté</h3>
+                    <p class="product-description">Tissage traditionnel aux couleurs vibrantes et symboliques.</p>
+                    <div class="product-footer">
+                        <div class="product-price">20,000 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <span class="product-badge">Nouveau</span>
+                <div class="product-image">
+                    <img src="./assets/image-3.jpg" alt="Étoffe Traditionnelle">
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Textiles</div>
+                    <h3 class="product-title">Étoffe Traditionnelle</h3>
+                    <p class="product-description">Tissu authentique pour créations uniques et vêtements traditionnels.
+                    </p>
+                    <div class="product-footer">
+                        <div class="product-price">16,500 <span class="currency">FCFA</span></div>
+                        <button class="add-to-cart">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Niger Artisan est une plateforme dédiée à la promotion de l'artisanat nigérien authentique.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Produits</a></li>
+                    <li><a href="#">Notre histoire</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Service client</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Livraison</a></li>
+                    <li><a href="#">Retours</a></li>
+                    <li><a href="#">Paiement</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone"></i> +227 80 04 27 06
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i> contact@nigerartisan.ne
+                    </li>
+                    <li><i class="fa-solid fa-location-dot"></i> Niamey, Niger</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Niger Artisan. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
